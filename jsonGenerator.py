@@ -13,7 +13,7 @@ def Demo():
     
     length = len(heading)
     
-    dummy_data = {"EVENT_NAME":"STM_MZ_PLI_LITE_COMPUTE","PROCESS_NAME":"STM_MZ_PLI_LITE","SLEEP_TIME":"60","MAX_SLA_WAIT_SECS_CNT":"300"}
+    dummy_data = {"MAX_SLA_WAIT_SECS_CNT":"300"}
     for each_line in file_read[1:]:
         values = each_line.strip().split("|")
         for a in range(length):
